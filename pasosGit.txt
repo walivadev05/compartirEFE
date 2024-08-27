@@ -1,0 +1,14 @@
+-Nos ubicamos en la carpeta determinada:
+$ git init
+$ git add .
+$ git status
+$ git commit -m "compartir efe 26082024"
+$  git config --global user.email "walivadev05@outlook.com"
+$  git config --global user.name "wlinares"
+$ git log --para ver las versiones de commit
+
+-crear un nuevo repositorio con nombre compartirEFE, ahi indica las 
+ultimas lineas de codigo:
+
+$ git remote add origin https://github.com/walivadev05/compartirEFE.git
+$ git push -u origin master
